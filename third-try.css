@@ -1,0 +1,534 @@
+:root {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+header {
+    /*border: 3px solid salmon;*/
+    height: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color:rgb(247, 248, 249);
+}
+
+.logo-main, .navigation-bar, .menu-icon  {
+    float: left;
+    width: 10%;
+}
+
+/*=====================================
+Main logo image top left
+=======================================*/
+.logo-main {
+    width: 20%;
+    /*border: 1px solid lime;*/
+    text-align: left;
+}
+
+.logo {
+    width: 8.5rem;
+    object-fit: cover;
+    
+}
+
+
+/*=====================================
+Button container & top right button
+=======================================*/
+.button-container {
+    width: 20%;
+    /*border: 1px solid lime;*/
+    float: right;
+    text-align: right;
+}
+
+.button-top {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem 0.111rem;
+    padding: 1rem 3.1rem;
+    background-color: rgb(9, 9, 14);
+    color: white;   
+}
+
+nav {
+    display: inline-block;
+    height: 30px;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+
+.navigation-bar {
+    width: 60%;
+    /*border: 1px solid aqua;*/
+}
+
+.nav-link {
+    list-style-type: none;
+    padding-left: 4rem;
+    float: left;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-link a{
+    text-decoration: none;
+    padding-left: 4rem;
+    color: grey;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.menu-icon {
+    /*display: none;*/
+    visibility: hidden;
+}
+
+/*=====================================
+Container and left & right boxes
+=======================================*/
+.main-info-container {
+    clear: both;
+    /*border: 3px solid yellow;*/
+    width: 100%;
+    height: 80vh;
+    background-color:rgb(247, 248, 249);
+    padding-bottom: 68.2rem;
+}
+
+.left-box, .right-box {
+    float: left;
+}
+
+.left-box {
+    text-align: left;
+    width: 45%;
+    min-width: 49rem;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 9rem;
+}
+
+.tagline {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(122, 152, 162);
+    margin-bottom: 3rem;
+}
+
+.left-box-title {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    margin-bottom: 2rem;
+    color: rgb(16, 16, 49);
+    width: 35rem;
+    
+}
+
+.placeholder {
+    height: 2.8rem;
+    width: 27.5rem;
+    background-color: rgb(214, 225, 229);
+    border: none;
+    color: rgb(146, 168, 176);
+    font-size: 1.5rem;
+    padding: 1.9rem 1.3rem;
+    margin-top: 2rem;
+}
+
+.left-box-button {
+    text-decoration: none;
+    background-color: rgb(9, 9, 14);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 3.1rem;
+    margin-left: -0.25rem;
+}
+
+.left-box-paragraph {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    width: 34rem;
+    color: gray;
+    padding-top: 3.5rem;
+}
+
+.right-box {
+    width: 55%;
+    min-width: 50rem;
+}
+
+/*=====================================
+Main image - Laptop & phone photo
+=======================================*/
+.main-image {
+    float: right;
+    width: 100%;
+}
+
+/*=====================================
+Feature links Container 
+=======================================*/
+.center-container {
+    clear: both;
+    /*border: 3px solid purple;*/
+    height: 22rem;
+    margin: 0 auto;
+    /*padding-left: 6rem;
+    padding-right: 6rem;*/
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5rem;
+    padding-bottom: 28rem;
+    background-color:rgb(247, 248, 249);
+    
+
+}
+
+.feature-links-container {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature-link {
+    float: left;
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 20rem;
+    width: 22%;
+    min-width: 25rem;
+    text-align: left;
+    /*padding-right: 1.1rem;*/
+    color: rgb(16, 16, 49);
+}
+
+.feature-link h4 {
+    /*font-size: 1.6rem;*/
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: (16, 16, 49);
+}
+
+.feature-link p {
+    /*font-size: 1.5rem;*/
+    font-size: 1.7rem;
+    color: gray;
+    width: 22.5rem;
+    padding-bottom: 2rem;
+}
+
+.feature-link a {
+    text-decoration: none;
+    color: rgb(16, 16, 49);
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.bottom-section {
+    clear: both;
+    /*border: 3px solid aqua;*/
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-color: white;
+    width: 82%; 
+    text-align: left;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 4rem;
+}
+
+.bottom-section p {
+    color: gray;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    width: 55%;
+    height: 30rem;
+}
+
+.header-bottom {
+    font-size: 5.4rem;
+    color: rgb(16, 16, 49);
+    width: 50%;
+}
+
+.bottom-box {
+    display: inline-block;
+    height: 100px;
+    text-align: left;
+}
+
+.graybox {
+    background-color: lightgray;
+    width: 82%;
+    height: 6rem;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    header {
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgb(189, 221, 231);
+    }
+    
+    .logo-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 12rem;
+    }
+
+    .menu-icon {
+        visibility: visible;
+        width: 4rem;
+    }
+
+    nav, .button-top {
+        display: none;
+    }
+
+    .center-container {
+         padding-left: 22.5%;
+         padding-right: 22.5%;
+         height: 135vh;
+    }
+
+    .left-box, .right-box, .bottom-box {
+        width: 100%;
+    }
+
+    .left-box {
+        margin-bottom: 3rem;
+    }
+
+    .left-box-title {
+        font-size: 5.5rem;
+        line-height: 4.8rem;
+        width: 100%;
+    }
+
+    .left-box-paragraph {
+        width: 100%;
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    .bottom-box p, .header-bottom {
+        width: 100%;
+    }
+
+    .placeholder {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .left-box-button {
+        display: inline-block;
+        text-decoration: none;
+        background-color: rgb(9, 9, 14);
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem 3.1rem;
+        margin-top: 1rem;
+        margin-left: 0.25%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .center-container {
+        clear: both;
+        height: 150vh;
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 5rem;
+        padding-bottom: 28rem;
+        background-color:rgb(247, 248, 249);
+    }
+
+    .feature-link {
+        
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        height: 22rem;
+    }
+
+    .feature-link h4 {
+        font-size: 2.5rem;
+    }
+
+    .feature-link p {
+        font-size: 2.2rem;
+        color: gray;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    .feature-link a {
+        font-size: 1.7rem;
+    }
+
+    .header-bottom {
+        font-size: 7rem;
+    }
+
+    .bottom-section p {
+        padding-bottom: 2rem;
+        font-size: 2.5rem;
+        width: 100%;
+        height: 30rem;
+    }
+
+}
+
+/*@media screen and (max-width: 950px) {*/
+@media (min-width: 601px) and (max-width: 950px) {
+    .center-container {
+        background-color: lime;
+    }
+
+    header {
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        padding-bottom: 1.5rem;
+        
+    }
+    
+    .logo-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 12rem;
+    }
+
+    .menu-icon {
+        visibility: visible;
+        width: 4rem;
+    }
+
+    nav, .button-top {
+        display: none;
+    }
+}
+
+/*@media screen and (max-width: 1128px) {*/
+@media (min-width: 951px) and (max-width: 1128px) {
+    
+    .main-info-container {
+        background-color: yellow;
+        clear: both;
+    }
+
+    .left-box, .right-box, .bottom-box, .graybox {
+        clear: both;
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .center-container {
+        height: 75vh;
+    }
+
+    .feature-link {
+        width: 45%;
+    }
+
+    .bottom-box p, .header-bottom {
+        width: 100%;
+        
+    }
+
+    .bottom-section {
+        height: 70vh;
+        margin-bottom: 2rem;
+    }
+
+    .graybox {
+        margin-top: 2rem;
+    }
+
+}
+
+
+ @media (min-width: 1129px) and (max-width: 1429px) {
+   .left-box {
+        background-color: aqua;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    .placeholder {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .left-box-button {
+        display: block;
+        text-decoration: none;
+        background-color: rgb(9, 9, 14);
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem 3.1rem;
+        margin-top: 2rem;
+        margin-left: 0.25%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-box-paragraph {
+        font-size: 1.9rem;
+        line-height: 2.3rem;
+        width: 100%;
+    }
+
+    .bottom-box p {
+        width: 100%;
+    }
+}
+
+
+    
